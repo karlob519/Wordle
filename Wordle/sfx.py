@@ -35,7 +35,7 @@ def win():
     return
 
 def click():
-    sound = mx.Sound('SFX/click.wav')
+    sound = mx.Sound('SFX/button.wav')
     if not mute_val:
         mx.Sound.play(sound)
 
